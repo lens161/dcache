@@ -733,24 +733,6 @@ The GP2-AUTHZDB takes a username and maps it to UID+GID using the `storage-authz
    Default: `/etc/grid-security/storage-authzdb`
 
 
-
-##### GridMap
-
-> DEPRECATED: The `grid-mapfile` plug-in is deprecated and will be removed in a future release.  Use the `multimap` plugin instead.
-
-The `grid-mapfile` plug-in takes a GRID DN and maps it username using the **grid-mapfile** file.
-
-
-
-Properties
-
-**gplazma.gridmap.file**
-
-   Path to `grid-mapfile`
-   Default: `/etc/grid-security/grid-mapfile`
-
-
-
 ##### vorolemap
 
 > DEPRECATED: The `vorolemap` plug-in is deprecated and will be removed in a future release.  Use the `multimap` plugin instead.
